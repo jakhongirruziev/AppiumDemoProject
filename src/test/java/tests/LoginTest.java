@@ -28,7 +28,7 @@ public class LoginTest extends BaseClass {
         loginPage.tap();
         loginPage.hitSignInButton();
         test.pass("Hit sign in button");
-        loginPage.setConfirmationCode("395167");
+        loginPage.setConfirmationCode("7777");
         test.pass("set confirmation code");
         loginPage.tap();
         loginPage.hitVerifyButton();
