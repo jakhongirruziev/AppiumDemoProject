@@ -2,6 +2,7 @@ package tests;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import screens.LoginScreen;
@@ -25,6 +26,7 @@ public class LoginTest extends BaseClass {
         loginPage.setPhoneNumber("+998998428232");
         test.pass("Set phone number");
         loginPage.tap();
+        Assert.assertEquals("Jay", driver.getAutomationName());
         loginPage.hitSignInButton();
         test.pass("Hit sign in button");
         loginPage.setConfirmationCode("7777");
