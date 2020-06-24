@@ -1,7 +1,7 @@
 # Appium Demo test 
 
 <h3 align="center"> Demo </h3>
-<iframe src="https://giphy.com/embed/dCET8R09v13sdQqTnO" width="245" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dCET8R09v13sdQqTnO">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/dCET8R09v13sdQqTnO/giphy.gif">
 
 <h3 align="center"> Application being tested  </h3>
 <p>
