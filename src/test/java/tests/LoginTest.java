@@ -17,7 +17,6 @@ public class LoginTest extends BaseClass {
         BaseClass.driver = driver;
     }
 
-
     @Test
     public void loginTest() throws InterruptedException {
         // Login
