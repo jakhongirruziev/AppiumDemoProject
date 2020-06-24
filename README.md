@@ -1,4 +1,4 @@
-<p align="center">
+<p float="left">
 <img src="https://img.shields.io/badge/ Project - Maven - Green">
 <img src="https://img.shields.io/badge/Design Pattern - Page Object Model - Purple">
 <img src="https://img.shields.io/badge/ Framework - TestNG - Orange">
@@ -11,10 +11,10 @@
 <img src="demo.gif"> 
 </p>
 
-<h2 align="center"> Generated report </h2>
+<h1 align="center"> Generated report </h1>
 <img src="report.png">
 
-<h2 align="center"> Install the application </h2>
+<h1 align="center"> Install the application </h1>
 <p>
 Application is located in the app folder  <br>
 To install run the following commands in the cli 
@@ -25,7 +25,7 @@ To install run the following commands in the cli
 - pod install 
 </p>
 
-<h2 align="center"> Set up </h2>
+<h1 align="center"> Set up </h1>
 <p>
 - In the BaseClass change the UDID to the device connected   <br>
 - Build the app in the Xcode <br>
