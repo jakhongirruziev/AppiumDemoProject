@@ -1,7 +1,7 @@
 <h1 align="center">Appium Demo test </h1>
 <img src="demo.gif"> 
 
-<h2 align="center"> Generated report </h2>
+
 <img src="report.png">
 
 <h2 align="center"> Install the application </h2>
