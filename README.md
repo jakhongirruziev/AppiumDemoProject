@@ -2,8 +2,8 @@
 
 <h3 align="center"> Demo </h3>
 
-![alt text](https://github.com/jakhongirruziev/AppiumDemo.git/other/file.png)
-<h3> Application being tested  </h3>
+<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:196.15%;position:relative;"><iframe width="260" height="510" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/46848r"></iframe></div><p><a href="https://imgflip.com/gif/46848r">via Imgflip</a></p></div>
+<h3 align="center"> Application being tested  </h3>
 <p>
 Application is located in the app folder  <br>
 To install the app run the following commands  
@@ -14,7 +14,7 @@ To install the app run the following commands
 - pod install 
 </p>
 
-<h3> Set up </h3>
+<h3 align="center"> Set up </h3>
 <p>
 - In the BaseClass change the UDID to the device connected   <br>
 - Build the app in the Xcode <br>
