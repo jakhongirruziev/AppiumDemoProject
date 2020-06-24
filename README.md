@@ -1,5 +1,5 @@
 <h1 align="center">Appium Demo test </h1>
-<p float="left">
+<p align="center">
 <img src="https://img.shields.io/badge/ Project - Maven - Green">
 <img src="https://img.shields.io/badge/Design Pattern - Page Object Model - Purple">
 <img src="https://img.shields.io/badge/ Framework - TestNG - Orange">
