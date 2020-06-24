@@ -1,13 +1,13 @@
 <h1 align="center">Appium Demo test </h1>
 <img src="demo.gif"> 
 
-<h3 align="center"> Generated report </h3>
+<h2 align="center"> Generated report </h2>
 <img src="report.png">
 
-<h3 align="center"> Application being tested  </h3>
+<h2 align="center"> Install the application </h2>
 <p>
 Application is located in the app folder  <br>
-To install the app run the following commands in the cli 
+To install run the following commands in the cli 
 </p>
 <p>  
 - yarn install <br> 
@@ -15,7 +15,7 @@ To install the app run the following commands in the cli
 - pod install 
 </p>
 
-<h3 align="center"> Set up </h3>
+<h2 align="center"> Set up </h2>
 <p>
 - In the BaseClass change the UDID to the device connected   <br>
 - Build the app in the Xcode <br>
