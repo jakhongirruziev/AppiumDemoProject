@@ -2,7 +2,7 @@
 
 <h3 align="center"> Demo </h3>
 
-
+![alt text](https://github.com/jakhongirruziev/AppiumDemo.git/other/file.gif  "Logo Title Text 1")
 <h3> Application being tested  </h3>
 <p>
 Application is located in the app folder  <br>
