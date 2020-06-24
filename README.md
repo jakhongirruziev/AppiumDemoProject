@@ -4,7 +4,7 @@
 Application is located in the app folder  <br>
 To install the app run following commands  
 </p>
-<p> 
+<p>  
 - yarn install <br> 
 - cd ios <br>
 - pod install 
@@ -12,6 +12,8 @@ To install the app run following commands
 
 <h3> Set up </h3>
 <p>
-- Change UDID of the device to yours   <br>
-- Set the application path
+- In the BaseClass change the UDID to the device connected   <br>
+- Build the app in the Xcode <br>
+- Find the path to the app file. Go to -> Products -> DeleverClient.app and copy the full path  <br> 
+- In the BaseClass Set the application path
 </p>
