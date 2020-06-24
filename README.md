@@ -1,13 +1,6 @@
 # Appium Demo test 
 
-<h3> About the project </h3>
-Maven Project        <br>         
-Page object model    <br>        
-TestNG               <br>
-Extent reports       <br>  
-<img src="/Users/jakhongirruziev/workspace/Portfolio/AppiumDemo/report/1593024785625.png">   
-Listeners            <br>
-Properties file      <br>      
+<h3 align="center"> Demo </h3>
 
 
 <h3> Application being tested  </h3>

@@ -2,6 +2,7 @@ package tests;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -19,14 +20,13 @@ public class LoginTest extends BaseClass {
     }
 
     @Test
-    public void loginTest() throws InterruptedException {
+    public void loginTest() {
         // Login
         test = extent.createTest("Sign in test");
         LoginScreen loginPage = new LoginScreen(driver);
         loginPage.setPhoneNumber("+998998428232");
         test.pass("Set phone number");
         loginPage.tap();
-        Assert.assertEquals("Jay", driver.getAutomationName());
         loginPage.hitSignInButton();
         test.pass("Hit sign in button");
         loginPage.setConfirmationCode("7777");

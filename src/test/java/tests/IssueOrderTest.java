@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import screens.CreateOrderScreen;
@@ -10,11 +11,10 @@ public class IssueOrderTest extends BaseClass {
 
     // Methods
     @Test
-    public void checkout() throws InterruptedException {
+    public void issueOrder() throws InterruptedException {
         // Add products to cart
         AddToCartTest addToCart = new AddToCartTest(driver);
         addToCart.addToCartTest(2);
-
         test = extent.createTest("Issue order test");
         // Go to checkout
         MenuScreen menuPage = new MenuScreen(driver);
@@ -41,6 +41,9 @@ public class IssueOrderTest extends BaseClass {
         createOrderPage.setPaymentType();
         test.pass("Set payment");
         createOrderPage.createOrder();
-        test.pass("Issue the order");
+        // Assert if order is created and returned to Menu
+        driver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"Menu\"])[2]")).isDisplayed();
+        test.pass("Order is issued");
+        Thread.sleep(3000);
     }
 }

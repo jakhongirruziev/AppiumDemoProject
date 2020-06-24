@@ -56,7 +56,7 @@
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">Jun 24, 2020 11:52:50 PM</span>
+                    <span class="badge badge-primary">Jun 25, 2020 12:47:00 AM</span>
                 </a>
             </li>
         </ul>
@@ -100,7 +100,7 @@
 					<i class="fa fa-exclamation-circle"></i>
 					</a>
 					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-						
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
 						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
 						
 						
@@ -114,28 +114,28 @@
 		</div>
 		<div class="test-list-wrapper scrollable">
 			<ul class="test-list-item">
-				<li class="test-item"  status="fail" test-id="1"
+				<li class="test-item"  status="pass" test-id="1"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar fail-bg">
-						<i class="fa fa-times text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
 							<p class="name">Sign in test</p>
-							<p class="duration text-sm">0h 0m 3s+272ms</p>
-							<span class="datetime">23:53:02 PM</span>
+							<p class="duration text-sm">0h 0m 9s+396ms</p>
+							<span class="datetime">00:47:31 AM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-fail">Sign in test</h5>
-									<span class='badge badge-success'>06.24.2020 23:53:02</span>
-									<span class='badge badge-danger'>06.24.2020 23:53:05</span>
-									<span class='badge badge-default'>0h 0m 3s+272ms</span>
+									<h5 class="test-status text-pass">Sign in test</h5>
+									<span class='badge badge-success'>06.25.2020 00:47:31</span>
+									<span class='badge badge-danger'>06.25.2020 00:47:40</span>
+									<span class='badge badge-default'>0h 0m 9s+396ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -152,24 +152,218 @@
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-check text-pass"></i></td>
-				<td>11:53:05 PM</td>
+				<td>12:47:33 AM</td>
 				<td>
 						Set phone number
 				</td>
 			</tr>
 			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:34 AM</td>
+				<td>
+						Hit sign in button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:39 AM</td>
+				<td>
+						set confirmation code
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:40 AM</td>
+				<td>
+						Hit verify button
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="2"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Add products to cart test</p>
+							<p class="duration text-sm">0h 0m 8s+581ms</p>
+							<span class="datetime">00:47:40 AM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Add products to cart test</h5>
+									<span class='badge badge-success'>06.25.2020 00:47:40</span>
+									<span class='badge badge-danger'>06.25.2020 00:47:49</span>
+									<span class='badge badge-default'>0h 0m 8s+581ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:44 AM</td>
+				<td>
+						Select product
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:45 AM</td>
+				<td>
+						Add number 1 product to cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:47 AM</td>
+				<td>
+						Select product
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:49 AM</td>
+				<td>
+						Add number 2 product to cart
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="3"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Issue order test</p>
+							<p class="duration text-sm">0h 0m 31s+575ms</p>
+							<span class="datetime">00:47:49 AM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">Issue order test</h5>
+									<span class='badge badge-success'>06.25.2020 00:47:49</span>
+									<span class='badge badge-danger'>06.25.2020 00:48:20</span>
+									<span class='badge badge-default'>0h 0m 31s+575ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:50 AM</td>
+				<td>
+						Go to checkout page
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:52 AM</td>
+				<td>
+						Hit delivery address
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:54 AM</td>
+				<td>
+						Set address
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:47:56 AM</td>
+				<td>
+						Set reference place
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:48:01 AM</td>
+				<td>
+						Hit allow permission
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:48:04 AM</td>
+				<td>
+						Set location
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:48:06 AM</td>
+				<td>
+						Hit payment
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:48:08 AM</td>
+				<td>
+						Set payment
+				</td>
+			</tr>
+			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>11:53:05 PM</td>
+				<td>12:48:20 AM</td>
 				<td>
 						Failed
 				</td>
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>11:53:05 PM</td>
+				<td>12:48:20 AM</td>
 				<td>
-						expected [null] but found [Jay]
-						<img class='r-img' onerror='this.style.display="none"' data-featherlight='1593024785625.png' src='1593024785625.png'>
+						An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'jay', ip: 'fe80:0:0:0:1cd8:96bf:f870:2e5a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/jakhongirruziev/Libr..., browserName: , databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, permissions: {"io.cloudgrey.the-app": {"..., platform: MAC, platformName: IOS, platformVersion: 13.5, takesScreenshot: true, udid: D3CE0318-FC21-4EFD-9C80-B6B..., webStorageEnabled: false}
+Session ID: f5d818c4-6221-4685-a1a5-b4b25fb6012f
+*** Element info: {Using=xpath, value=(//XCUIElementTypeOther[@name="Menu"])[2]}
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='1593028100521.png' src='1593028100521.png'>
 				</td>
 			</tr>
 	</tbody>
@@ -208,12 +402,12 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='0%'>
-						<b>0</b> tests passed
+					<div><small data-tooltip='66.667%'>
+						<b>2</b> tests passed
 						</small>
 					</div>
 					<div>
-						<small data-tooltip='100%'><b>1</b> tests failed, 
+						<small data-tooltip='33.333%'><b>1</b> tests failed, 
 						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
@@ -231,9 +425,9 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='33.333%'><b>1</b> events passed</small></div>
+					<div><small data-tooltip='88.889%'><b>16</b> events passed</small></div>
 					<div>
-						<small data-tooltip='66.667%'><b>2</b> events failed, 
+						<small data-tooltip='11.111%'><b>2</b> events failed, 
 						<b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
@@ -248,10 +442,10 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Tests</h6>
-							<h2 class="font-size-28 font-weight-light mt-3">1</h2>
+							<h2 class="font-size-28 font-weight-light mt-3">3</h2>
 							<span class="text-semibold text-success font-size-15">
 							<i class="ti-arrow-up font-size-11"></i> 
-							<span>.00%</span>
+							<span>66.67%</span>
 							</span>
 						</div>
 						<div class="align-self-end">
@@ -267,7 +461,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Start</h6>
-							<h4 class="font-weight-light mt-4">Jun 24, 2020 11:52:50 PM</h4>
+							<h4 class="font-weight-light mt-4">Jun 25, 2020 12:47:00 AM</h4>
 							<span class="text-semibold text-success font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -283,7 +477,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Duration</h6>
-							<h4 class="font-weight-light mt-4">0h 0m 16s+247ms</h4>
+							<h4 class="font-weight-light mt-4">0h 1m 21s+177ms</h4>
 							<span class="text-semibold font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -313,8 +507,8 @@
 </div>
 <script>
 	var statusGroup = {
-	    parentCount: 1,
-		passParent: 0,
+	    parentCount: 3,
+		passParent: 2,
 		failParent: 1,
 		fatalParent: 0,
 		errorParent: 0,
@@ -341,8 +535,8 @@
 		infoGrandChild: 0,
 		debugGrandChild: 0,
 		exceptionsGrandChild: 0,
-		eventsCount: 3,
-		passEvents: 1,
+		eventsCount: 18,
+		passEvents: 16,
 		failEvents: 2,
 		fatalEvents: 0,
 		errorEvents: 0,
@@ -355,7 +549,7 @@
 </script>
 <script>
 	var timeline = {
-	        "Sign in test":3.272
+	        "Sign in test":9.396,"Add products to cart test":8.581,"Issue order test":31.575
 	};
 </script>
                 </div>

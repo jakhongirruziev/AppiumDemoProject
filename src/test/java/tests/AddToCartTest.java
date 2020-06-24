@@ -2,6 +2,7 @@ package tests;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
+import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -32,6 +33,7 @@ public class AddToCartTest extends BaseClass {
         test = extent.createTest("Add products to cart test");
         for (int i = 1; i <= productCount; i++) {
             // Choose product
+            driver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"Menu\"])[2]")).isDisplayed();
             MenuScreen menuPage = new MenuScreen(driver);
             menuPage.scrollAndClick();
             test.pass("Select product");
@@ -42,6 +44,5 @@ public class AddToCartTest extends BaseClass {
             test.pass("Add number " + i + " product to cart");
         }
 
-        Thread.sleep(2000);
     }
 }
