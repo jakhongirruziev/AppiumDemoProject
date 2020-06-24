@@ -1,5 +1,5 @@
-# Appium Demo test 
-<img src="https://media.giphy.com/media/VbWJoHdws4HDnQRfnr/giphy.gif">
+<h1 align="center">Appium Demo test </h1>
+<img align="center" src="https://media.giphy.com/media/VbWJoHdws4HDnQRfnr/giphy.gif">
 
 <h3 align="center"> Application being tested  </h3>
 <p>
