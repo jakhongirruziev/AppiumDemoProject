@@ -1,7 +1,9 @@
 <h1 align="center">Appium Demo test </h1>
 <img src="demo.gif"> 
-<h3> Generated report </h3>
+
+<h3 align="center"> Generated report </h3>
 <img src="file.png">
+
 <h3 align="center"> Application being tested  </h3>
 <p>
 Application is located in the app folder  <br>
