@@ -1,7 +1,7 @@
 # Appium Demo test 
 
 <h3 align="center"> Demo </h3>
-<img src="https://github.com/jakhongirruziev/AppiumDemo.git/other/demo.gif">
+![github](other/demo.gif)
 
 <h3 align="center"> Application being tested  </h3>
 <p>
