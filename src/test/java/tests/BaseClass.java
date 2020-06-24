@@ -31,7 +31,7 @@ public class BaseClass {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 11");
         capabilities.setCapability(MobileCapabilityType.UDID, "D3CE0318-FC21-4EFD-9C80-B6BCF1C6A24C");
 
-        capabilities.setCapability(MobileCapabilityType.APP, "/Users/jakhongirruziev/Library/Developer/Xcode/DerivedData/DeleverClient-ffsvwkgjvzvomqbmcpiicdqtfohf/Build/Products/Release-iphonesimulator/DeleverClient.app");
+        capabilities.setCapability(MobileCapabilityType.APP, "/Users/jakhongirruziev/Library/Developer/Xcode/DerivedData/DeleverClient-cjmzawdcuwohszdhnmnpxbhgfiqx/Build/Products/Release-iphonesimulator/DeleverClient.app");
         capabilities.setCapability("permissions", "{\"io.cloudgrey.the-app\": {\"location\": \"inuse\"}}");
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new IOSDriver<MobileElement>(url, capabilities);
