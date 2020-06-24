@@ -1,0 +1,154 @@
+{
+  "app_subtitle": "for couriers",
+  "profile_screen": {
+    "title": "Profile",
+    "log_out": "Log out"
+  },
+  "canceled_screen": {
+    "title": "Canceled"
+  },
+  "details_screen": {
+    "no_number": "Number not provided",
+    "Overall": "Overall",
+    "Comments": "Comments",
+    "payment_details": "Payment details",
+    "delivery_address": "Delivery address",
+    "payment_type": "Payment type",
+    "Courier": "Courier",
+    "delivery_time": "Delivery time",
+    "cancel_time": "Cancel time",
+    "client_phone_number": "Client's phone number",
+    "delivery_items": "Delivery items",
+    "delivered_address": "Delivery address"
+  },
+  "couriers_screen": {
+    "title": "Couriers",
+    "add_new": "Add new courier",
+    "list_empty": "List is empty",
+    "delete_courier": "Delete courier",
+    "courier_status": "Courier status"
+  },
+  "login_screen": {
+    "re_enter_number": "Re-enter phone number",
+    "re_send_code": "Re-send code",
+    "subtitle": "for clients",
+    "login_placeholder": "Enter login",
+    "code": "Code",
+    "code_placeholder": "Enter verification code",
+    "password_placeholder": "Enter password",
+    "call_center": "Call center",
+    "call_center_number": "+998 99 815 09 22",
+    "sign_in": "Sign in",
+    "client_not_found": "Client not found",
+    "not_auth": "You have no access permission to the server",
+    "input_valid_number": "Please, input valid phone number",
+    "input_verf_code": "Please, input verification code",
+    "phone": "Phone number",
+    "phone_placeholder": "Enter phone number",
+    "verify": "Verify"
+  },
+  "common": {
+    "actions_for_order": "Actions for order",
+    "decline_deletes_order": "Decline will delete this order",
+    "no_orders": "You have no orders",
+    "name": "Name",
+    "phone_number": "Phone number",
+    "login": "Login",
+    "password": "Password",
+    "error": "Error",
+    "pending": "Pending",
+    "ready": "Ready",
+    "delivering": "Delivering",
+    "canceling": "Canceling",
+    "syncing": "Syncronizing",
+    "process": "Process",
+    "canceled": "Canceled",
+    "Vendor": "Vendor",
+    "vendors": "Vendors",
+    "Cash": "Cash",
+    "telephone": "Telephone",
+    "id_number": "ID number",
+    "Card": "Card",
+    "Date": "Date",
+    "Order": "Order",
+    "Orders": "Orders",
+    "Client": "Client",
+    "Delivery": "Delivery",
+    "search": "Search",
+    "save": "Save",
+    "cost": "Cost",
+    "retry": "Retry",
+    "accept": "Accept",
+    "add": "Add",
+    "on": "On",
+    "off": "Off",
+    "yes": "Yes",
+    "no": "No",
+    "active": "Active",
+    "inactive": "Inactive",
+    "open": "Open",
+    "closed": "Closed",
+    "take_order": "Take this order",
+    "already_taken": "Order is already taken",
+    "currency": "sums",
+    "minute": "minute",
+    "mins": "mins",
+    "arrived": "Arrived",
+    "picked_up": "Picked up",
+    "delivered": "Delivered",
+    "no_number": "no number"
+  },
+  "errors": {
+    "network_error": "Network error has occured",
+    "no_connection": "No network connection",
+    "forbidden": "Username or password is incorrect",
+    "went_wrong": "Something went wrong",
+    "server_error": "Internal server error occured",
+    "too_many_tries": "Error: Too many tries",
+    "interact_server": "Error occured while interacting with server",
+    "number_not_exist": "Courier with this number doesn't exist"
+  },
+  "my_orders": {
+    "title": "My Orders",
+    "cancel_order": "Cancel order",
+    "will_be_archived": "Order will be archived",
+    "sure_to_cancel": "Are you sure to cancel this order?"
+  },
+  "new_orders": {
+    "title": "New Orders",
+    "no_new_orders": "There is no new orders",
+    "order_overload": "You can't take more than 3 orders",
+    "address_of_order": "Address of the order"
+  },
+  "menu_screen": {
+    "title": "Menu",
+    "edit_price": "Edit price",
+    "edit_item": "Edit item",
+    "item_status": "Item status",
+    "no_items": "No items"
+  },
+  "reports_screen": {
+    "title": "Reports",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "day_before": "The day before"
+  },
+  "order_history": {
+    "title": "Order History"
+  },
+  "monthly_report": {
+    "title": "Monthly Report"
+  },
+  "vendors": {
+    "title": "Vendors"
+  },
+  "details": {
+    "basic": "Basic",
+    "menu": "Menu"
+  },
+  "main_tab_nav": {
+    "new_orders": "New Orders",
+    "profile": "Profile",
+    "my_orders": "My Orders"
+  }
+}

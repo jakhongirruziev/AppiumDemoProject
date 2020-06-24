@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": ["@react-native-community", "prettier"],
+  "plugins": ["prettier", "simple-import-sort"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "simple-import-sort/sort": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "prefer-template": "warn"
+  }
+}
