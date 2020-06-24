@@ -1,6 +1,6 @@
 <h1 align="center">Appium Demo test </h1>
  
-<img src="https://media.giphy.com/media/VbWJoHdws4HDnQRfnr/giphy.gif"> <br>
+<img src="demo.gif"> <br>
 <img src="file.png">
 
 <h3 align="center"> Application being tested  </h3>
