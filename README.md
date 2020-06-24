@@ -1,5 +1,5 @@
 <h1 align="center">Appium Demo test </h1>
-<img src="https://img.shields.io/badge/<Maven>-<Project>-<Green>">
+<img src="https://img.shields.io/badge/Maven-Project-Green">
 <img src="demo.gif"> 
 
 <h2 align="center"> Generated report </h2>
