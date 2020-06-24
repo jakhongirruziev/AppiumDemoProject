@@ -2,7 +2,7 @@
 <img src="demo.gif"> 
 
 <h3 align="center"> Generated report </h3>
-<img src="file.png">
+<img src="report.png">
 
 <h3 align="center"> Application being tested  </h3>
 <p>
