@@ -1,6 +1,7 @@
 <h1 align="center">Appium Demo test </h1>
-<img align="center" src="https://media.giphy.com/media/VbWJoHdws4HDnQRfnr/giphy.gif">
-
+ <div align=”center”> 
+<img src="https://media.giphy.com/media/VbWJoHdws4HDnQRfnr/giphy.gif">
+</div>
 <h3 align="center"> Application being tested  </h3>
 <p>
 Application is located in the app folder  <br>
