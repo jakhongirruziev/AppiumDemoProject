@@ -1,5 +1,8 @@
 <h1 align="center">Appium Demo test </h1>
-<img src="https://img.shields.io/badge/Maven-Project-Green">
+<img src="https://img.shields.io/badge/ Project - Maven - Green">
+<img src="https://img.shields.io/badge/Design Pattern - Page Object Model - Purple">
+<img src="https://img.shields.io/badge/ Framework - TestNG - YellowGreen">
+<img src="https://img.shields.io/badge/ Generates - Reports - 9cf">
 <img src="demo.gif"> 
 
 <h2 align="center"> Generated report </h2>
