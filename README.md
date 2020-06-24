@@ -5,8 +5,9 @@
 <img src="https://img.shields.io/badge/ Framework - TestNG - Orange">
 <img src="https://img.shields.io/badge/ Generates - Report - blue">
 </p>
+<p align="center">
 <img src="demo.gif"> 
-
+</p>
 
 <h2 align="center"> Generated report </h2>
 <img src="report.png">
