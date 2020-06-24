@@ -1,12 +1,10 @@
 # Appium Demo test 
-
-<h3 align="center"> Demo </h3>
-<img src="https://media.giphy.com/media/dCET8R09v13sdQqTnO/giphy.gif">
+<img src="https://media.giphy.com/media/VbWJoHdws4HDnQRfnr/giphy.gif">
 
 <h3 align="center"> Application being tested  </h3>
 <p>
 Application is located in the app folder  <br>
-To install the app run the following commands  
+To install the app run the following commands in the cli 
 </p>
 <p>  
 - yarn install <br> 
