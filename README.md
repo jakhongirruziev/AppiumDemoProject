@@ -1,9 +1,9 @@
 <p float="left">
 <img src="https://img.shields.io/badge/ Project - Maven - Green">
-<img src="https://img.shields.io/badge/Design Pattern - Page Object Model - Purple">
+<img src="https://img.shields.io/badge/Design Pattern - Page Object Model - blueviolet">
 <img src="https://img.shields.io/badge/ Framework - TestNG - Orange">
 <img src="https://img.shields.io/badge/ Generates - Report - blue">
-<img src="https://img.shields.io/badge/ App - react native - yellow">
+<img src="https://img.shields.io/badge/ App - react native - pink">
 </p>
 
 <h1 align="center">Appium Demo test </h1>
