@@ -6,16 +6,16 @@
 <img src="https://img.shields.io/badge/ App - react native - pink">
 </p>
 
-<h1 align="center">Appium Demo test </h1>
+<h1>Appium Demo test </h1>
 
 <p align="center">
 <img src="demo.gif"> 
 </p>
 
-<h1 align="center"> Generated report </h1>
+<h1> Generated report </h1>
 <img src="report.png">
 
-<h1 align="center"> Install the application </h1>
+<h1> Install the application </h1>
 <p>
 Application is located in the app folder  <br>
 To install run the following commands in the cli 
@@ -28,7 +28,7 @@ To install run the following commands in the cli
  
 </p>
 
-<h1 align="center"> Set up </h1>
+<h1> Set up </h1>
 <p>
 
 - In the BaseClass change the UDID to the device connected   <br>
