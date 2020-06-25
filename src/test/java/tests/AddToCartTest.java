@@ -29,7 +29,7 @@ public class AddToCartTest extends BaseClass {
         // Login
         LoginTest login = new LoginTest(driver);
         login.loginTest();
-
+        Thread.sleep(40000);
         test = extent.createTest("Add products to cart test");
         for (int i = 1; i <= productCount; i++) {
             // Choose product
