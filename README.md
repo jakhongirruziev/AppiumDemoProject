@@ -28,7 +28,7 @@ To install run the following commands in the cli
  
 </p>
 
-<h1> Set up </h1>
+<h1> Setup </h1>
 <p>
 
 - In the BaseClass change the UDID to the device connected   <br>
