@@ -3,4 +3,8 @@
 *.html linguist-detectable=false
 *.xml linguist-detectable=false
 *.ts linguist-detectable=false
+*.h linguist-detectable=false
+*.m linguist-detectable=false
+*.tsx linguist-detectable=false
+
 
