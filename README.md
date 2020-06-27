@@ -9,7 +9,7 @@
 <h1>Appium Demo test </h1>
 
 <p align="center">
-<img src="demo.gif" height="500"> 
+<img src="demo.gif" height="200"> 
 </p>
 
 <h1> Generated report </h1>
